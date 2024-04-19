@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public float doubleJumpForce;
     public bool isOnGround = true;
     public bool doubleJumpUsed = false;
-    public bool doubleSpeed =false;
+    public bool doubleSpeed = false;
     public bool gameOver;
 
     // Start is called before the first frame update
