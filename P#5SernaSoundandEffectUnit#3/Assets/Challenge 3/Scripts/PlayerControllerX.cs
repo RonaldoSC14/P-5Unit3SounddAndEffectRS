@@ -49,8 +49,6 @@ public class PlayerControllerX : MonoBehaviour
         if (transform.position.y < bottomBoundary)
         {
             playerRb.AddForce(Vector3.up * (floatForce / 2));
-            playerAudio.PlayOneShot(boinkSound);
-
             isOnGround = true;
         }
     }
